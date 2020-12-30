@@ -31,13 +31,14 @@ ku='\033[33;1m' #kuning
 
 clear
 sleep 1
-figlet -f $Ba "SELAMAT DATANG"
+figlet -f $Ba "WELCOME"
 sleep 1
 echo $cy 'Sebelum Login Baca Al-Fatiha'
 sleep 1
 echo $me 'Jika Kamu Kristen Baca Doa Sendiri...'
+sleep 1
 echo $i 'WAKTU DIKASIH UNTUK MEMBACA DOA'
-Sleep 1
+sleep 1
 echo $bi "WAKTU 05 Detik.."
 sleep 5
 echo $pu "SEMOGA WORK!!!..."
@@ -74,17 +75,14 @@ echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
 
 read Asw
 case $Asw in
-;;
 DumaiSST) echo $me "ID Yang Anda Masukan Benar!!!"
 sleep 1.26
 echo $ku 'Silahkan Masukan Passwordnya'
 sleep 1
 echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
-
-read Pw
-case $Pw in
-;;
-Riski) echo $pu 'PASSWORD YANG' $cy "Ada Masukan Benar...."
+read D
+case $D in
+Riski) echo $pu 'PASSWORD YANG' $cy Benar...."
 sleep 1
 echo $me 'INSTALL BAHAN TERMUX'
 sleep 1
