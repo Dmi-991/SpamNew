@@ -27,8 +27,8 @@ banner = """\033[97m
  ███████\033[91m╗\033[97m███████\033[91m╗ \033[94m╽ \033[41m \033[97mN O  S Y S T E M  I S  S A F E \033[0m
 \033[97m ██\033[91m╔══\033[97m██\033[91m║\033[97m██\033[91m╔════╝ \033[94m║ \033[91m╾\033[97m───────────────────\033[91m╼
  \033[97m███████\033[91m║\033[97m███████\033[91m╗ \033[94m║    \033[0;92mAuthor  \033[93m: \033[90mUgex.
-\033[91m ╚════\033[97m██\033[91m║╚════\033[97m██\033[91m║ \033[94m║    \033[90;92mYoutube \033[93m: \033[90mDin-zUgex95
-\033[97m ███████\033[91m║\033[97m███████\033[91m║ \033[94m║    \033[0;92mGithub  \033[93m: \033[90m./Din-zUgex95
+\033[91m ╚════\033[97m██\033[91m║╚════\033[97m██\033[91m║ \033[94m║    \033[90;92mFacebook \033[93m: \033[90mRISKI
+\033[97m ███████\033[91m║\033[97m███████\033[91m║ \033[94m║    \033[0;92mGithub  \033[93m: \033[90m./Dmi-991
 \033[91m ╚══════╝╚══════╝ \033[94m╿ \033[91m╾\033[97m──────────────────────────────\033[91m╼
 """
 
@@ -42,15 +42,15 @@ def tulis(oo):
 #__Repeat
 def ulang_():
 	print("  \033[94m[\033[92mo\033[94m] \033[97mSelesai\033[92m ~")
-	o = input("   \033[97mUlang Lagi\033[91m? \033[94m(\033[90my\033[91m/\033[90mt\033[94m) \033[91m≽\033[93m ")
+	o = input("   \033[97mApakah Anda Mau Coba Lagi.\033[91m? \033[94m(\033[90my\033[91m/\033[90mt\033[94m) \033[91m≽\033[93m ")
 	if o=='y':
 		run()
 	elif o=='t':
-		os.system("xdg-open https://youtube.com/Din-zUgex95")
+		os.system("xdg-open https://chat.whatsapp.com/DO2CdOOBDAyFnm10KoVeu7")
 		exit("\n  \033[94m[ \033[97mExit \033[94m]\n\n")
 		time.sleep(1)
 	else:
-		os.system("xdg-open https://youtube.com/Din-zUgex95")
+		os.system("xdg-open https://chat.whatsapp.com/DO2CdOOBDAyFnm10KoVeu7")
 		exit("\n  \033[94m[ \033[97mKesalahan \033[94m]\n\n")
 		time.sleep(1)
 
