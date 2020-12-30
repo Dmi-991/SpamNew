@@ -48,7 +48,7 @@ sleep 2
 clear
 sleep 1.20
 echo "
-       ▄▄▄▄▄▄▄▄
+        ▄▄▄▄▄▄▄▄
   █   ▄██████████▄
  █▐   ████████████
  ▌▐  ██▄▀██████▀▄██
@@ -71,18 +71,18 @@ figlet -f $Ba "DMI-991"
 
 echo $cy "Sebelum Masuk Masukan Id Termux"
 sleep 1
-echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
+read -p "" LM
+if [ $LM = DumaiSST ]
+then
 
-read Asw
-case $Asw in
-DumaiSST) echo $me "ID Yang Anda Masukan Benar!!!"
+echo $me "ID Yang Anda Masukan Benar!!!"
 sleep 1.26
 echo $ku 'Silahkan Masukan Passwordnya'
 sleep 1
-echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
-read D
-case $D in
-Riski) echo $pu 'PASSWORD YANG' $cy Benar...."
+read -p "" rz
+if [ $rz = By Riski ]
+then
+echo $pu 'PASSWORD YANG' $cy Benar...."
 sleep 1
 echo $me 'INSTALL BAHAN TERMUX'
 sleep 1
@@ -111,9 +111,9 @@ clear
 sleep 3
 python SpamNew.py
 
-
-;;
-**)  echo $me'
+else
+else
+echo $me'
 Jangan Bodohlah Anjing...
 Gw Capek Bikin Informasih DiTermux Gw...
 Haragailah Hasil Karia Orang... By Risky...
@@ -145,6 +145,4 @@ sleep 1
 echo $me "082384332714 Name Admin RISKI"
 sleep 5.10
 sh install.sh
-esac
-done
-done
+if
