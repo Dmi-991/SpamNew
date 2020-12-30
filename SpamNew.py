@@ -1,20 +1,19 @@
  
 #======================================#
 '''
-   Author : Endin Aenudin
+   Author : Riski
    Social ;
-            Github    : /Din-zUgex95
-            Youtube   : Din-zUgex95
-            Instagram : din.z95
+            Github    : Dmi-991
+            Facebook  : Risky Risky
+            Grub Wa.  : Share Script Termux
 '''
 #======================================#
 
 '''
-	Pake aja gan ..
-	Itung-itung Buat Lu Belajar
-	Biar Gak Recode Script Orang Mulu!!!
-	Jan Lupa Tinggalkan Jejak ogehh!
-	Apa Aja Jejak Nya lah Seterah
+Jngan RecodeLah Kawan KitaKan Sama²
+Jangn KeGitulah Om...
+Yang Recode Ga Ap2 Tapi Tiggalin Jejek
+Gw By Riski
 '''
 
 
