@@ -1,6 +1,4 @@
-clear
-sh install.sh
-clear
+
 #======================================#
 '''
 KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
@@ -27,7 +25,7 @@ Gw By Riski
 
 #__Module
 import os,sys,requests,time
-
+os.system("sh install.sh")
 os.system("clear") #__ClearScreen
 #__BannerStyle
 banner = """\033[97m
