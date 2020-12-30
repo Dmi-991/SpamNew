@@ -1,6 +1,13 @@
- 
+clear
+sh install.sh
+clear
 #======================================#
 '''
+KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
+KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
+KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
+KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
+
    Author : Riski
    Social ;
             Github    : Dmi-991
