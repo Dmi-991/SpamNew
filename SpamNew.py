@@ -1,4 +1,6 @@
-
+clear
+sh install.sh
+clear
 #======================================#
 '''
 KontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontolKontol
