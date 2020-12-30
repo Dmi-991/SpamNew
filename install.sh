@@ -71,25 +71,23 @@ figlet -f $Ba "DMI-991"
 
 echo $cy "Sebelum Masuk Masukan Id Termux"
 sleep 1
-read -p "" LM
-if [ $LM = DumaiSST ]
-then
+echo -n "\033[1;33m[*] [=ID-Termux==]=>>>\033[1;37m "
 
+read Asw
+case $Asw in
+28042007)
 echo $me "ID Yang Anda Masukan Benar!!!"
 sleep 1.26
 echo $ku 'Silahkan Masukan Passwordnya'
 sleep 1
-read -p "" rz
-if [ $rz = By Riski ]
-then
-echo $pu 'PASSWORD YANG' $cy Benar...."
-sleep 1
 echo $me 'INSTALL BAHAN TERMUX'
 sleep 1
 echo $ku "DIMulai!!!!!"
-sleep 2
+sleep 3
 clear
-
+sleep 2
+echo $me "Orang Yang Sabar" $ku 'DiSayang Anjing!!'
+sleep 1
 apt update && apt upgrade
 pkg ins toilet -y
 pkg ins figlet -y
@@ -111,8 +109,8 @@ clear
 sleep 3
 python SpamNew.py
 
-else
-else
+;;
+**)
 echo $me'
 Jangan Bodohlah Anjing...
 Gw Capek Bikin Informasih DiTermux Gw...
@@ -145,4 +143,4 @@ sleep 1
 echo $me "082384332714 Name Admin RISKI"
 sleep 5.10
 sh install.sh
-if
+fi
