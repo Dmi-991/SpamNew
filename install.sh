@@ -1,7 +1,7 @@
 #YangRecodeAnakHarqmAmin
 #Semoga Yang Recode Anak Anjing
 #Dasar Kontol
-Ba=banner.flf.
+Ba=banner.flf
 Bu=bubble.flf.
 Le=lean.flf.....
 Sc=script.flf
@@ -74,6 +74,7 @@ echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
 
 read Asw
 case $Asw in
+;;
 DumaiSST) echo $me "ID Yang Anda Masukan Benar!!!"
 sleep 1.26
 echo $ku 'Silahkan Masukan Passwordnya'
@@ -82,6 +83,7 @@ echo -n "\033[1;33m[*]===[=SpamNew==]=>>>\033[1;37m "
 
 read Pw
 case $Pw in
+;;
 Riski) echo $pu 'PASSWORD YANG' $cy "Ada Masukan Benar...."
 sleep 1
 echo $me 'INSTALL BAHAN TERMUX'
@@ -110,14 +112,41 @@ echo $cy "Install Bahan Sukses..."
 clear
 sleep 3
 python SpamNew.py
-if
 
 
+;;
+**)  echo $me'
+Jangan Bodohlah Anjing...
+Gw Capek Bikin Informasih DiTermux Gw...
+Haragailah Hasil Karia Orang... By Risky...
+'
+sleep 2.75
+clear
+sleep 1
+echo $i 'Goto Home...'
+sleep 1
+echo $ku '3  Detik...'
+sleep 1
+clear
+sleep 1
+echo $me 'Goto Home.'
+sleep 1
+echo $cy '2  Detik.'
+sleep 1
+clear
+sleep 1
+echo $i 'Goto Home..'
+sleep 1
+echo $pu '1  Detik..'
+sleep 1
+echo $ku 'Suksess Goto Home !!!!...'
+sleep 1.92
 
-
-**)echo $ku "Jika Tidak Punya Id Dan Password Chat Admin"
+echo $ku "Jika Tidak Punya Id Dan Password Chat Admin"
 sleep 1
 echo $me "082384332714 Name Admin RISKI"
 sleep 5.10
 sh install.sh
-if
+esac
+done
+done
